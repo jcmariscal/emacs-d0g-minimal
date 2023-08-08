@@ -1,0 +1,18 @@
+#+title: emacs-d0g-minimal
+
+* Intro
+
+An opinionated minimal emacs config.
+
+* Run
+
+#+begin_src bash
+cd ~/
+git clone git@github.com:jcmariscal/emacs-d0g-minimal.git
+cd emacs-d0g-minimal
+emacs --batch --eval "(require 'org)" --eval '(org-babel-tangle-file "./src/config.org")")'
+emacs --init-directory ~/emacs-d0g-minimal
+#+end_src
+
+* License
+GPL-3-OR-LATER

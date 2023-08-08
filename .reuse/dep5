@@ -1,0 +1,18 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: emacs-d0g-minimal
+Upstream-Contact: J.C. Mariscal <d0g@duck.com>
+Source: git@github.com:jcmariscal/emacs-d0g-minimal.git
+
+Files:
+    res/asset/**
+    doc/**
+Copyright:
+    J.C. Mariscal <d0g@duck.com>
+License: CC-BY-SA-4.0
+
+Files:
+    src/**
+    res/script/**
+Copyright:
+    J.C. Mariscal <d0g@duck.com>
+License: GPL-3.0-or-later
